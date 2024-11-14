@@ -1,0 +1,88 @@
+\documentclass[a4paper ,10pt]{article}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[left=25mm,right=25mm,top=20mm,bottom=20mm,paper=a4paper]{geometry}
+\usepackage[pdftex,
+            pdfauthor={Dorian Gilbert, Mazen Ben Hmida, Nour El Houda Taouali, William Lapointe, Al Sadick Ismail Altoum},
+            pdftitle={Idée de projet pour IFT605/713},
+            pdfkeywords={Idée de projet pour IFT605/713}]{hyperref}
+\usepackage{soul}
+
+\title{Idée de projet pour IFT605/713}
+\date{\today}
+\author{Dorian Gilbert - Mazen Ben Hmida - Nour El Houda Taouali - William Lapointe - Al Sadick Ismail Altoum}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\section*{Idée de projet pour IFT605/713}
+
+\subsection*{Idée 1 : Maison intelligente}
+
+\subsubsection*{Objectif du projet}
+Créer un système IoT intégré qui :
+
+\begin{itemize}
+  \item Surveille la sécurité de la maison en détectant les intrusions à travers des capteurs de mouvement et de porte.
+  \item Gère automatiquement l’éclairage en fonction de la présence et de l’heure de la journée.
+  \item Surveille les niveaux d'eau pour prévenir les fuites et inondations.
+  \item Envoie des notifications en temps réel pour tous les événements importants (intrusion, éclairage automatique, fuite d'eau) via une application mobile ou une plateforme web.
+\end{itemize}
+
+\subsubsection*{Matériel nécessaire}
+
+\begin{enumerate}
+  \item Raspberry Pi 3B : Utilisé comme unité centrale de traitement pour gérer les différents capteurs et contrôler le système.
+  \item Capteurs de Mouvement (Zwave Plus Motion Sensor) : Pour détecter la présence humaine et contrôler l'éclairage ou signaler une intrusion.
+  \item Capteurs de Porte/Fenêtre (Zwave Plus Door/Window Sensor) : Pour détecter si une porte ou une fenêtre est ouverte, et déclencher une alerte en cas d'intrusion.
+  \item Capteur d'Inclinaison pour Porte de Garage : Pour vérifier si la porte de garage est ouverte ou fermée.
+  \item Ampoules LED intelligentes (Zwave Plus LED Bulb) : Pour gérer l'éclairage automatique en fonction de la détection de mouvement et des conditions définies.
+  \item Détecteurs de niveau d'eau : Pour surveiller les fuites ou les inondations potentielles.
+  \item Bouton Fibaro : Pour activer/désactiver manuellement le système ou activer un mode "sécurité".
+\end{enumerate}
+
+\subsubsection*{Fonctionnalités du Projet}
+
+\begin{enumerate}
+  \item Sécurité de la Maison
+  \item Gestion Automatique de l'Éclairage
+  \item Surveillance des Niveaux d'Eau
+  \item Système d'Alerte et Interface Utilisateur
+\end{enumerate}
+
+\newpage
+
+\subsection*{Idée 2: Système d’Irrigation Intelligent pour l’Agriculture}
+
+\subsubsection*{Objectif du projet}
+L'objectif de ce projet est de développer un système d'irrigation autonome pour surveiller et contrôler l'humidité du sol d'un champ/jardin, assurant ainsi une irrigation optimale et prévenant le gaspillage d'eau.
+
+\subsubsection*{Matériel nécessaire}
+
+\begin{enumerate}
+  \item Détecteurs de niveau d'eau et capteurs d'humidité : Mesurent l'humidité du sol en temps réel.
+  \item Zwave Plus Motion Sensor : Détecte l'activité autour de la zone, utile pour surveiller les passages d’animaux ou d’ouvriers pour une gestion de sécurité en parallèle.
+  \item LED Diffusées Vertes et Rouges : Indiquent visuellement l'état d'irrigation (vert pour un sol suffisamment humide, rouge pour un besoin d'irrigation).
+  \item Raspberry Pi 3B : Serveur central qui collecte les données des capteurs, exécute la logique de décision et envoie les commandes d'irrigation.
+  \item Zwave USB Z-Stick : Connecté au Raspberry Pi pour gérer la communication avec les capteurs Zwave.
+  \item Pompe à eau et réservoir (à simuler) : Pour fournir l'eau au champ/jardin.
+  \item Bouton Fibaro : Permet d’activer ou de désactiver manuellement le système.
+\end{enumerate}
+
+\subsubsection*{Fonctionnalités du Projet}
+
+\begin{enumerate}
+  \item Surveillance en temps réel de l'humidité du sol : Les détecteurs mesurent l'humidité et envoient les données au Raspberry Pi à intervalles réguliers.
+  \item Déclenchement automatique de l'irrigation : Si le niveau d'humidité tombe en dessous d'un certain seuil, la pompe à eau est activée pour irriguer le sol jusqu'à ce que l'humidité atteigne un niveau optimal.
+  \item Alerte visuelle :
+        \begin{itemize}
+          \item La LED verte s'allume lorsque l'humidité du sol est dans la plage optimale.
+          \item La LED rouge s'allume si l'humidité est en dessous du seuil minimum, indiquant un besoin d'irrigation.
+        \end{itemize}
+  \item Historique et analyse des données : Les données d'humidité et d'irrigation sont stockées et peuvent être analysées pour optimiser les cycles d'irrigation.
+  \item Notifications et rapports : Envoi de notifications par SMS ou email ou application mobile/web si l'humidité descend sous le seuil critique ou si un problème est détecté (par exemple, panne de la pompe).
+  \item Mode manuel : L'utilisateur peut utiliser le bouton Fibaro pour activer ou désactiver le système manuellement en cas de besoin particulier.
+\end{enumerate}
+
+\end{document}
