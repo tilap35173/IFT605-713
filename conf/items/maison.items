@@ -1,0 +1,17 @@
+// Simulated Motion Sensor (will be toggled manually)
+Switch Simulated_MotionSensor "Simulated Motion Sensor"
+
+// Manual Light Switch (turn the light on/off manually)
+Switch Manual_Light_Switch "Manual Light Control"
+
+// Light Controlled (this is the actual light)
+Switch Light_Controlled "Light"
+
+// Simulated Door Sensor
+Switch Simulated_DoorSensor "Door Sensor"
+
+// Simulated Window Sensor
+Switch Simulated_WindowSensor "Window Sensor"
+
+// Intrusion Alert
+Switch Intrusion_Alert "Intrusion Alert" <alarm>

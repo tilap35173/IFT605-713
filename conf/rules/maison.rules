@@ -1,0 +1,93 @@
+// Rule: Turn on the light when motion is detected (if manual switch is off)
+rule "Turn on light when motion detected"
+when
+    Item Simulated_MotionSensor changed to ON
+then
+    if (Manual_Light_Switch.state == OFF) { // Only turn on if manual switch is off
+        logInfo("MotionRule", "Motion detected, turning on the light.")
+        Light_Controlled.sendCommand(ON)
+    }
+end
+
+// Rule: Turn off the light after inactivity (if manual switch is off)
+rule "Turn off light after inactivity"
+when
+    Item Simulated_MotionSensor changed to OFF
+then
+    logInfo("MotionRule", "No motion detected, setting a timer to turn off the light.")
+    createTimer(now.plusMinutes(1)) [ |
+        if (Simulated_MotionSensor.state == OFF && Manual_Light_Switch.state == OFF) {
+            logInfo("MotionRule", "Turning off the light after inactivity.")
+            Light_Controlled.sendCommand(OFF)
+        }
+    ]
+end
+
+// Rule: Manual light control (turn light on/off regardless of motion)
+rule "Manual light control"
+when
+    Item Manual_Light_Switch changed
+then
+    if (Manual_Light_Switch.state == ON) {
+        logInfo("ManualControl", "Manual switch turned on, turning on the light.")
+        Light_Controlled.sendCommand(ON)
+    } else {
+        logInfo("ManualControl", "Manual switch turned off, turning off the light.")
+        Light_Controlled.sendCommand(OFF)
+    }
+end
+
+// Rule: Turn off the light after inactivity (1 minute after motion stops, if manual switch is off)
+rule "Turn off light after inactivity"
+when
+    Item Simulated_MotionSensor changed to OFF
+then
+    logInfo("MotionRule", "No motion detected, setting a timer to turn off the light.")
+    createTimer(now.plusMinutes(1)) [ |
+        // Check if there is still no motion and manual switch is OFF
+        if (Simulated_MotionSensor.state == OFF && Manual_Light_Switch.state == OFF) {
+            logInfo("MotionRule", "Turning off the light after inactivity.")
+            Light_Controlled.sendCommand(OFF)
+        }
+    ]
+end
+
+
+// Rule: Turn off lights after midnight
+rule "Turn off lights after midnight"
+when
+    Time cron "0 0 0 * * ?" // Trigger at midnight
+then
+    if (Light_Controlled.state == ON) {
+        logInfo("MidnightRule", "It is midnight, turning off the lights.")
+        Light_Controlled.sendCommand(OFF)
+    }
+end
+
+
+
+// Rule: Trigger alert when door sensor detects an intrusion
+rule "Door intrusion alert"
+when
+    Item Simulated_DoorSensor changed to ON
+then
+    logInfo("IntrusionAlert", "Intrusion detected: Door sensor triggered!")
+    Intrusion_Alert.sendCommand(ON)
+end
+
+// Rule: Trigger alert when window sensor detects an intrusion
+rule "Window intrusion alert"
+when
+    Item Simulated_WindowSensor changed to ON
+then
+    logInfo("IntrusionAlert", "Intrusion detected: Window sensor triggered!")
+    Intrusion_Alert.sendCommand(ON)
+end
+
+// Rule: Reset the intrusion alert manually
+rule "Reset intrusion alert"
+when
+    Item Intrusion_Alert changed to OFF
+then
+    logInfo("IntrusionAlert", "Intrusion alert reset.")
+end

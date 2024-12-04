@@ -1,0 +1,13 @@
+
+sitemap maison label="Maison" {
+    Frame label="Light Control" {
+        Switch item=Simulated_MotionSensor label="Simulated Motion Sensor" icon="motion"
+        Switch item=Manual_Light_Switch label="Manual Light Control" icon="light"
+        Text item=Light_Controlled label="Light Status" icon="light"
+    }
+    Frame label="Intrusion Detection" {
+        Switch item=Simulated_DoorSensor label="Door Sensor" icon="door"
+        Switch item=Simulated_WindowSensor label="Window Sensor" icon="window"
+        Switch item=Intrusion_Alert label="Intrusion Alert" icon="alarm" visibility=[Intrusion_Alert==ON]
+    }
+}

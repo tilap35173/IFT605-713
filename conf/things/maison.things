@@ -1,0 +1,12 @@
+ // Simulated Motion Sensor Thing (virtual thing for testing)
+Thing sim:motionSensor "Simulated Motion Sensor" []
+
+// Simulated Light Thing (virtual thing for testing)
+Thing sim:light "Simulated Light" [ ]
+
+
+// Simulated Door Sensor
+Thing sim:doorSensor "Simulated Door Sensor" []
+
+// Simulated Window Sensor
+Thing sim:windowSensor "Simulated Window Sensor" []
