@@ -1,0 +1,21 @@
+{
+  "page_12270b0470": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_12270b0470",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Nov 18, 2024, 5:23:43 PM",
+      "component": "Sitemap",
+      "config": {
+        "label": "New Sitemap"
+      },
+      "slots": {
+        "widgets": []
+      }
+    }
+  }
+}

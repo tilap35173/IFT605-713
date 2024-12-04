@@ -1,0 +1,11 @@
+sitemap maison label="Maison intelligente" {
+Frame label="Notifications" {
+Switch item=notification label="Envoyer une notification de test"
+}
+Frame label="Capteurs" {
+Switch item=mouvement label="Détecteur de mouvement" mappings=[ON="Détecté", OFF="Non détecté"]
+Switch item=porte label="Détecteur de porte" mappings=[ON="Ouverte", OFF="Fermée"]
+Switch item=fenetre label="Détecteur de fenêtre" mappings=[ON="Ouverte", OFF="Fermée"]
+Setpoint item=waterLevel label="Détecteur de niveau d'eau [%.1f mm]" minValue=0 step=1
+}
+}

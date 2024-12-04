@@ -1,0 +1,5 @@
+Switch notification "Envoyer une notification de test" <switch>
+Switch mouvement "Détecteur de mouvement" <motion>
+Switch porte "Détecteur de porte" <door>
+Switch fenetre "Détecteur de fenêtre" <window>
+Number waterLevel "Niveau d'eau [%.1f mm]" <water>

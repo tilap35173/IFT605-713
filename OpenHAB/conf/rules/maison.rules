@@ -1,0 +1,55 @@
+val TAG_FileName = "maison.rules"
+val notification_email = "projetift7132024idmnw@proton.me"
+rule "Démarrage de openHAB"
+when
+    System started
+then
+    logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
+    mouvement.postUpdate(OFF)
+    porte.postUpdate(OFF)
+    fenetre.postUpdate(OFF)
+    waterLevel.postUpdate(0)
+end
+rule "Test de notification"
+when
+    Item notification changed to ON
+then
+    sendNotification(notification_email, "Test")
+    notification.postUpdate(OFF)
+end
+rule "Notification de mouvement"
+when
+    Item mouvement changed to ON
+then
+    sendNotification(notification_email, "Mouvement détecté")
+    mouvement.postUpdate(OFF)
+end
+rule "Notification de porte"
+when
+    Item porte changed
+then
+    if (porte.state == ON) {
+        sendNotification(notification_email, "Porte ouverte")
+    } else {
+        sendNotification(notification_email, "Porte fermée")
+    }
+end
+rule "Notification de fenêtre"
+when
+    Item fenetre changed
+then
+    if (fenetre.state == ON) {
+        sendNotification(notification_email, "Fenêtre ouverte")
+    } else {
+        sendNotification(notification_email, "Fenêtre fermée")
+    }
+end
+rule "Notification de niveau d'eau"
+when
+    Item waterLevel changed
+then
+    val seuilNiveauEau = 5
+    if ((waterLevel.state as Number) >= seuilNiveauEau) {
+        sendNotification(notification_email, "Niveau d'eau élevé : " + waterLevel.state.toString + " mm")
+    }
+end
