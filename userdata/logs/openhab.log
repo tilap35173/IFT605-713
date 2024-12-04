@@ -1,0 +1,76 @@
+2024-12-04 11:19:42.127 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 4.2.2 (Release Build)
+2024-12-04 11:19:42.454 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'America/Toronto'.
+2024-12-04 11:19:42.454 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'en_CA'.
+2024-12-04 11:19:46.187 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-04 11:19:46.580 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:19:46.725 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-04 11:19:46.743 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [9,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[12,17]: mismatched input '"Simulated Light"' expecting ':'
+
+2024-12-04 11:19:50.302 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2024-12-04 11:19:50.419 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-04 11:20:07.910 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2024-12-04 11:28:06.238 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-04 11:31:39.614 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-04 11:31:39.618 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [9,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[12,17]: mismatched input '"Simulated Light"' expecting ':'
+[16,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[19,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+
+2024-12-04 11:31:54.518 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-04 11:32:09.076 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-04 11:32:18.683 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:32:18.691 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.sitemap' has errors, therefore ignoring it: [18,1]: missing EOF at 'sitemap'
+
+2024-12-04 11:42:08.429 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:42:44.111 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:42:44.116 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.sitemap' has errors, therefore ignoring it: [22,2]: mismatched input '<EOF>' expecting '}'
+
+2024-12-04 11:49:26.821 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:49:26.826 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.sitemap' has errors, therefore ignoring it: [20,2]: mismatched input '<EOF>' expecting '}'
+
+2024-12-04 11:49:48.568 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 11:49:57.273 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-04 11:50:00.152 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Window sensor triggered!
+2024-12-04 11:50:02.907 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion alert reset.
+2024-12-04 11:50:04.506 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-04 11:50:06.770 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Window sensor triggered!
+2024-12-04 11:50:25.440 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 11:50:25.440 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 11:50:26.730 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned on, turning on the light.
+2024-12-04 11:50:27.907 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned off, turning off the light.
+2024-12-04 11:50:31.323 [INFO ] [openhab.core.model.script.MotionRule] - Motion detected, turning on the light.
+2024-12-04 11:50:32.514 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 11:50:32.514 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 11:51:25.455 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-04 11:51:25.455 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-04 11:51:29.765 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion alert reset.
+2024-12-04 11:51:31.787 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned on, turning on the light.
+2024-12-04 11:51:33.657 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned off, turning off the light.
+2024-12-04 11:52:54.436 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 12:44:08.625 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Window sensor triggered!
+2024-12-04 12:44:11.922 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion alert reset.
+2024-12-04 12:44:14.992 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-04 12:44:20.845 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion alert reset.
+2024-12-04 12:44:28.168 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned on, turning on the light.
+2024-12-04 12:44:30.622 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned off, turning off the light.
+2024-12-04 12:44:34.119 [INFO ] [openhab.core.model.script.MotionRule] - Motion detected, turning on the light.
+2024-12-04 12:44:37.518 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 12:44:37.518 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-04 12:45:37.535 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-04 12:45:37.535 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-04 16:36:40.955 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-04 16:36:53.608 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-04 16:37:03.827 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-04 16:37:09.222 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-04 16:37:09.222 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [4,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[7,17]: mismatched input '"Simulated Light"' expecting ':'
+[11,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[14,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+
+2024-12-04 16:37:11.335 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-04 16:37:11.342 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [2,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[5,17]: mismatched input '"Simulated Light"' expecting ':'
+[9,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[12,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+
