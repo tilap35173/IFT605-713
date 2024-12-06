@@ -1,0 +1,1 @@
+Number Waterlevel "Water Level [%.1f cm]" { channel="mqtt:topic:Waterlevel:level" }
