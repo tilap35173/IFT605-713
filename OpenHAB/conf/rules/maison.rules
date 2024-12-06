@@ -1,4 +1,4 @@
-/ import org.eclipse.smarthome.model.script.ScriptServiceUtil
+// import org.eclipse.smarthome.model.script.ScriptServiceUtil
 // import org.eclipse.smarthome.core.library.items.StringItem
 // import java.util.ArrayList
 val TAG_FileName = "maison.rules"
@@ -14,6 +14,39 @@ when
     Item WaterLevel changed
 then
     if (WaterLevel.state >10) {
+        //notifictaion
 
     } 
 end
+//auto-diagonistic
+rule "Exécution toutes les 5 secondese"
+ when 
+Time cron "0/5 * * * * ?" 
+then 
+logInfo("CronExample", "La règle est exécutée à " + now.toString)
+
+// Capteur hors 
+if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
+//notification
+// auto-configuraton
+}
+if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
+//notification
+// auto-configuraton
+}
+if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
+//notification
+// auto-configuraton
+}
+if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
+//notification
+// auto-configuraton
+}
+
+
+ end
+
+
+rule "Détection de capteur hors ligne"
+when
+    Thing "mqtt:temperatureSensor:1234" changed to OFFLINE  // Capteur hors 
