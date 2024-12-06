@@ -1,0 +1,7 @@
+sitemap chambre label="Ma chambre intelligente" {
+
+    Frame label="Water Level Monitoring" {
+        Text item=Waterlevel label="Water Level [%.1f cm]" icon="water"
+    }
+
+}
