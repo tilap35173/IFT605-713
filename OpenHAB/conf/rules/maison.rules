@@ -1,0 +1,19 @@
+/ import org.eclipse.smarthome.model.script.ScriptServiceUtil
+// import org.eclipse.smarthome.core.library.items.StringItem
+// import java.util.ArrayList
+val TAG_FileName = "maison.rules"
+rule "Démarrage de openHAB"
+when
+System started
+then
+logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
+
+logInfo(TAG_FileName, "Rule : alert niveau d'eau")
+rule "Water Level Alert"
+when
+    Item WaterLevel changed
+then
+    if (WaterLevel.state >10) {
+
+    } 
+end
