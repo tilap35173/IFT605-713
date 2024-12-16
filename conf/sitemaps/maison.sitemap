@@ -10,4 +10,21 @@ sitemap maison label="Maison" {
         Switch item=Simulated_WindowSensor label="Window Sensor" icon="window"
         Switch item=Intrusion_Alert label="Intrusion Alert" icon="alarm" visibility=[Intrusion_Alert==ON]
     }
+
+
+    Frame label="Notifications" {
+        Switch item=notification label="Envoyer une notification de test"
+
+    Frame label="Capteurs" {
+        Switch item=mouvement label="Détecteur de mouvement" mappings=[ON="Détecté", OFF="Non détecté"]
+        Switch item=porte label="Détecteur de porte" mappings=[ON="Ouverte", OFF="Fermée"]
+        Switch item=fenetre label="Détecteur de fenêtre" mappings=[ON="Ouverte", OFF="Fermée"]
+        Setpoint item=waterLevel label="Détecteur de niveau d'eau [%.1f mm]" minValue=0 step=1
 }
+}
+    Frame label="Water Level Monitoring" {
+            Text item=Waterlevel label="Water Level [%.1f cm]" icon="water"
+        }
+}
+
+

@@ -15,3 +15,5 @@ Switch Simulated_WindowSensor "Window Sensor"
 
 // Intrusion Alert
 Switch Intrusion_Alert "Intrusion Alert" <alarm>
+
+Number Waterlevel "Water Level [%.1f cm]" { channel="mqtt:topic:Waterlevel:level" }

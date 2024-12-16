@@ -13,7 +13,17 @@
           "sessionId": "2b1e16c0-1e6d-4fcb-87ca-0f9ceb87c47b",
           "refreshToken": "047f7c8292c5486896589d8a8b27fb65",
           "createdTime": "Nov 9, 2024, 3:34:54 AM",
-          "lastRefreshTime": "Nov 14, 2024, 11:40:54 PM",
+          "lastRefreshTime": "Nov 14, 2024, 11:42:34 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "c1660284-a1be-456b-8e2d-11caa67eafbd",
+          "refreshToken": "d08dc436edae47d5bf3e5022d4bce1d1",
+          "createdTime": "Dec 4, 2024, 3:49:08 PM",
+          "lastRefreshTime": "Dec 4, 2024, 5:13:24 PM",
           "clientId": "http://localhost:8080",
           "redirectUri": "http://localhost:8080",
           "scope": "admin",
