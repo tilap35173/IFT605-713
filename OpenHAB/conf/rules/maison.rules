@@ -1,55 +1,139 @@
 val TAG_FileName = "maison.rules"
 val notification_email = "projetift7132024idmnw@proton.me"
+
+// System Startup Rule
 rule "Démarrage de openHAB"
 when
     System started
 then
     logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
-    mouvement.postUpdate(OFF)
-    porte.postUpdate(OFF)
-    fenetre.postUpdate(OFF)
-    waterLevel.postUpdate(0)
+    TestNotifications_MotionSensor.postUpdate(OFF)
+    TestNotifications_DoorSensor.postUpdate(OFF)
+    TestNotifications_WindowSensor.postUpdate(OFF)
 end
-rule "Test de notification"
+
+// Motion Detection Rules
+rule "Turn on light when motion detected"
 when
-    Item notification changed to ON
+    Item Simulated_MotionSensor changed to ON
 then
-    sendNotification(notification_email, "Test")
-    notification.postUpdate(OFF)
+    if (Manual_Light_Switch.state == OFF) {
+        logInfo("MotionRule", "Motion detected, turning on the light.")
+        Light_Controlled.sendCommand(ON)
+    }
 end
-rule "Notification de mouvement"
+
+rule "Turn off light after inactivity"
 when
-    Item mouvement changed to ON
+    Item Simulated_MotionSensor changed to OFF
 then
-    sendNotification(notification_email, "Mouvement détecté")
-    mouvement.postUpdate(OFF)
+    logInfo("MotionRule", "No motion detected, setting a timer to turn off the light.")
+    createTimer(now.plusMinutes(1)) [ |
+        if (Simulated_MotionSensor.state == OFF && Manual_Light_Switch.state == OFF) {
+            logInfo("MotionRule", "Turning off the light after inactivity.")
+            Light_Controlled.sendCommand(OFF)
+        }
+    ]
 end
-rule "Notification de porte"
+
+rule "Manual light control"
 when
-    Item porte changed
+    Item Manual_Light_Switch changed
 then
-    if (porte.state == ON) {
-        sendNotification(notification_email, "Porte ouverte")
+    if (Manual_Light_Switch.state == ON) {
+        logInfo("ManualControl", "Manual switch turned on, turning on the light.")
+        Light_Controlled.sendCommand(ON)
     } else {
-        sendNotification(notification_email, "Porte fermée")
+        logInfo("ManualControl", "Manual switch turned off, turning off the light.")
+        Light_Controlled.sendCommand(OFF)
     }
 end
-rule "Notification de fenêtre"
+
+// Intrusion Detection Rules
+rule "Door intrusion alert"
 when
-    Item fenetre changed
+    Item Simulated_DoorSensor changed to ON
 then
-    if (fenetre.state == ON) {
-        sendNotification(notification_email, "Fenêtre ouverte")
+    logInfo("IntrusionAlert", "Intrusion detected: Door sensor triggered!")
+    sendNotification(notification_email, "Intrusion detected: Door sensor triggered!")
+    Intrusion_Alert.sendCommand(ON)
+end
+
+rule "Window intrusion alert"
+when
+    Item Simulated_WindowSensor changed to ON
+then
+    logInfo("IntrusionAlert", "Intrusion detected: Window sensor triggered!")
+    sendNotification(notification_email, "Intrusion detected: Window sensor triggered!")
+    Intrusion_Alert.sendCommand(ON)
+end
+
+rule "Reset intrusion alert"
+when
+    Item Intrusion_Alert changed to OFF
+then
+    logInfo("IntrusionAlert", "Intrusion alert reset.")
+end
+
+// Notifications
+rule "Notification test"
+when
+    Item TestNotifications changed to ON
+then
+    sendNotification(notification_email, "Test : Notification test")
+    logInfo("NotificationTest", "Test notification sent.")
+    TestNotifications.postUpdate(OFF)
+end
+
+rule "Motion sensor notification test"
+when
+    Item TestNotifications_MotionSensor changed to ON
+then
+    sendNotification(notification_email, "Test : Motion detected")
+    logInfo("NotificationTest", "Test motion sensor notification sent.")
+    TestNotifications_MotionSensor.postUpdate(OFF)
+end
+
+rule "Door sensor notification test"
+when
+    Item TestNotifications_DoorSensor changed
+then
+    if (TestNotifications_DoorSensor.state == ON) {
+        sendNotification(notification_email, "Test : Door opened")
     } else {
-        sendNotification(notification_email, "Fenêtre fermée")
+        sendNotification(notification_email, "Test : Door closed")
+    }
+    logInfo("NotificationTest", "Test door sensor notification sent.")
+end
+
+rule "Window sensor notification test"
+when
+    Item TestNotifications_WindowSensor changed
+then
+    if (TestNotifications_WindowSensor.state == ON) {
+        sendNotification(notification_email, "Test : Window opened")
+    } else {
+        sendNotification(notification_email, "Test : Window closed")
+    }
+    logInfo("NotificationTest", "Test window sensor notification sent.")
+end
+
+rule "Water level notification"
+when
+    Item WaterLevel changed
+then
+    val waterLevelLimit = 5
+    if ((WaterLevel.state as Number) >= waterLevelLimit) {
+        sendNotification(notification_email, "High water level : " + WaterLevel.state.toString + " cm")
+        logInfo("WaterLevel", "High water level detected : " + WaterLevel.state.toString + " cm")
     }
 end
-rule "Notification de niveau d'eau"
+
+// Water Level Simulation
+
+rule "Water level simulation"
 when
-    Item waterLevel changed
+    Item Simulated_WaterLevel changed
 then
-    val seuilNiveauEau = 5
-    if ((waterLevel.state as Number) >= seuilNiveauEau) {
-        sendNotification(notification_email, "Niveau d'eau élevé : " + waterLevel.state.toString + " mm")
-    }
+    WaterLevel.postUpdate(Simulated_WaterLevel.state)
 end

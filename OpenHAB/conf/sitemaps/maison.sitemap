@@ -1,11 +1,22 @@
-sitemap maison label="Maison intelligente" {
-Frame label="Notifications" {
-Switch item=notification label="Envoyer une notification de test"
-}
-Frame label="Capteurs" {
-Switch item=mouvement label="Détecteur de mouvement" mappings=[ON="Détecté", OFF="Non détecté"]
-Switch item=porte label="Détecteur de porte" mappings=[ON="Ouverte", OFF="Fermée"]
-Switch item=fenetre label="Détecteur de fenêtre" mappings=[ON="Ouverte", OFF="Fermée"]
-Setpoint item=waterLevel label="Détecteur de niveau d'eau [%.1f mm]" minValue=0 step=1
-}
+sitemap maison label="Maison" {
+    Frame label="Light Control" {
+        Switch item=Simulated_MotionSensor label="Simulated Motion Sensor" mappings=[ON="Detected", OFF="Undetected"] icon="motion"
+        Switch item=Manual_Light_Switch label="Manual Light Control" mappings=[ON="On", OFF="Off"] icon="light"
+        Text item=Light_Controlled label="Light Status" icon="light"
+    }
+    Frame label="Intrusion Detection" {
+        Switch item=Simulated_DoorSensor label="Door Sensor" mappings=[ON="Opened", OFF="Closed"] icon="door"
+        Switch item=Simulated_WindowSensor label="Window Sensor" mappings=[ON="Opened", OFF="Closed"] icon="window"
+        Switch item=Intrusion_Alert label="Intrusion Alert" mappings=[ON="Triggered", OFF="Disabled"] icon="alarm" visibility=[Intrusion_Alert==ON]
+    }
+    Frame label="Water Level Monitoring" {
+        Setpoint item=Simulated_WaterLevel label="Simulated Water Level [%.1f cm]" minValue=0 step=1 icon="water"
+        Text item=WaterLevel label="Water Level [%.1f cm]" icon="water"
+    }
+    Frame label="Notifications testing" {
+        Switch item=TestNotifications label="Send test notification" icon="switch"
+        Switch item=TestNotifications_MotionSensor label="Motion sensor test notification" mappings=[ON="Detected", OFF="Undetected"] icon="motion"
+        Switch item=TestNotifications_DoorSensor label="Door sensor test notification" mappings=[ON="Opened", OFF="Closed"] icon="door"
+        Switch item=TestNotifications_WindowSensor label="Window test notification" mappings=[ON="Opened", OFF="Closed"] icon="window"
+    }
 }

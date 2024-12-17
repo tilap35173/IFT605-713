@@ -1,5 +1,21 @@
-Switch notification "Envoyer une notification de test" <switch>
-Switch mouvement "Détecteur de mouvement" <motion>
-Switch porte "Détecteur de porte" <door>
-Switch fenetre "Détecteur de fenêtre" <window>
-Number waterLevel "Niveau d'eau [%.1f mm]" <water>
+// Simulated Sensors
+Switch Simulated_MotionSensor "Simulated Motion Sensor"
+Switch Simulated_DoorSensor "Door Sensor"
+Switch Simulated_WindowSensor "Window Sensor"
+
+// Light Control
+Switch Manual_Light_Switch "Manual Light Control"
+Switch Light_Controlled "Light"
+
+// Intrusion Alert
+Switch Intrusion_Alert "Intrusion Alert" <alarm>
+
+// Water Level
+Number WaterLevel "Water Level [%.1f cm]" { channel="mqtt:topic:Waterlevel:level" }
+Number Simulated_WaterLevel "Simulated Water Level [%.1f cm]"
+
+// Notifications
+Switch TestNotifications "Test notification"
+Switch TestNotifications_MotionSensor "Test motion sensor notifications"
+Switch TestNotifications_DoorSensor "Test door sensor notifications"
+Switch TestNotifications_WindowSensor "Test window sensor notifications"
