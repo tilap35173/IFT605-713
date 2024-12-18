@@ -137,3 +137,51 @@ when
 then
     WaterLevel.postUpdate(Simulated_WaterLevel.state)
 end
+
+
+rule "Auto configuration on startup"
+when
+    System started
+then
+    logInfo("AutoConfig", "Initializing default configuration...")
+
+    // Initialisation des capteurs
+    Simulated_MotionSensor.postUpdate(OFF)
+    Simulated_DoorSensor.postUpdate(OFF)
+    Simulated_WindowSensor.postUpdate(OFF)
+    Intrusion_Alert.postUpdate(OFF)
+    Manual_Light_Switch.postUpdate(OFF)
+
+    logInfo("AutoConfig", "Default configuration initialized.")
+end
+
+rule "Auto-configuration et réparation au démarrage"
+when
+    System started
+then
+    logInfo("AutoConfig", "Démarrage d'OpenHAB : Vérification et initialisation des configurations...")
+
+    // Vérification et initialisation des capteurs
+    if (Simulated_MotionSensor.state == NULL) Simulated_MotionSensor.postUpdate(OFF)
+    if (Simulated_DoorSensor.state == NULL) Simulated_DoorSensor.postUpdate(OFF)
+    if (Simulated_WindowSensor.state == NULL) Simulated_WindowSensor.postUpdate(OFF)
+    if (Intrusion_Alert.state == NULL) Intrusion_Alert.postUpdate(OFF)
+    if (Manual_Light_Switch.state == NULL) Manual_Light_Switch.postUpdate(OFF)
+    if (Light_Controlled.state == NULL) Light_Controlled.postUpdate(OFF)
+
+    // Initialisation des notifications de test
+    if (TestNotifications.state == NULL) TestNotifications.postUpdate(OFF)
+    if (TestNotifications_MotionSensor.state == NULL) TestNotifications_MotionSensor.postUpdate(OFF)
+    if (TestNotifications_DoorSensor.state == NULL) TestNotifications_DoorSensor.postUpdate(OFF)
+    if (TestNotifications_WindowSensor.state == NULL) TestNotifications_WindowSensor.postUpdate(OFF)
+
+    logInfo("AutoConfig", "Configuration initialisée avec succès.")
+end
+
+rule "Redémarrage automatique des Things défectueux"
+when
+    Thing "mqtt:broker:myBroker" changed from ONLINE to OFFLINE
+then
+    logWarn("AutoRepair", "Le broker MQTT est hors ligne. Tentative de redémarrage...")
+    executeCommandLine("sudo systemctl restart openhab", 5000)
+end
