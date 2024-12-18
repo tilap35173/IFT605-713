@@ -1,0 +1,124 @@
+2024-12-15 19:02:31.381 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command ON
+2024-12-15 19:02:31.386 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from NULL to ON
+2024-12-15 19:02:32.451 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command OFF
+2024-12-15 19:02:32.454 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from ON to OFF
+2024-12-15 19:02:34.467 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:02:34.468 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from NULL to ON
+2024-12-15 19:02:35.252 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:02:35.253 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:02:41.838 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:02:41.840 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from NULL to ON
+2024-12-15 19:02:43.365 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:02:43.366 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:02:44.508 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command ON
+2024-12-15 19:02:44.508 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from NULL to ON
+2024-12-15 19:02:50.213 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command OFF
+2024-12-15 19:02:50.214 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from ON to OFF
+2024-12-15 19:03:18.502 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command ON
+2024-12-15 19:03:18.502 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from OFF to ON
+2024-12-15 19:03:20.188 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:03:20.189 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:03:21.325 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:03:21.325 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:03:21.876 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:03:21.877 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:03:22.525 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:03:22.525 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:06:03.794 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command OFF
+2024-12-15 19:06:03.795 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from ON to OFF
+2024-12-15 19:06:05.464 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command ON
+2024-12-15 19:06:05.466 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from OFF to ON
+2024-12-15 19:06:06.744 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command OFF
+2024-12-15 19:06:06.745 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from ON to OFF
+2024-12-15 19:06:08.464 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:06:08.465 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:06:09.608 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:06:09.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:06:10.672 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command ON
+2024-12-15 19:06:10.673 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from OFF to ON
+2024-12-15 19:06:11.857 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command OFF
+2024-12-15 19:06:11.857 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from ON to OFF
+2024-12-15 19:08:26.566 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command ON
+2024-12-15 19:08:26.567 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from OFF to ON
+2024-12-15 19:08:26.799 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command ON
+2024-12-15 19:08:26.800 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from NULL to ON
+2024-12-15 19:08:27.117 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Manual_Light_Switch' received command OFF
+2024-12-15 19:08:27.117 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Manual_Light_Switch' changed from ON to OFF
+2024-12-15 19:08:27.120 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:08:27.120 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from ON to OFF
+2024-12-15 19:08:31.795 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:08:31.797 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:08:31.804 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command ON
+2024-12-15 19:08:31.805 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from OFF to ON
+2024-12-15 19:08:32.908 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:08:32.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:08:35.228 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:08:35.229 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:08:36.773 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:08:36.773 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:08:37.636 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command ON
+2024-12-15 19:08:37.637 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from OFF to ON
+2024-12-15 19:08:39.821 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command OFF
+2024-12-15 19:08:39.821 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from ON to OFF
+2024-12-15 19:09:32.927 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:09:32.927 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:09:32.928 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from ON to OFF
+2024-12-15 19:10:40.568 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:10:40.569 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:10:41.527 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:10:41.528 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:10:42.189 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command ON
+2024-12-15 19:10:42.189 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from OFF to ON
+2024-12-15 19:10:42.952 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_WindowSensor' received command OFF
+2024-12-15 19:10:42.953 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_WindowSensor' changed from ON to OFF
+2024-12-15 19:10:55.344 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:10:55.344 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:10:55.477 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Intrusion_Alert' received command ON
+2024-12-15 19:10:55.478 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Intrusion_Alert' changed from NULL to ON
+2024-12-15 19:10:59.039 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:10:59.040 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:12:30.138 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Intrusion_Alert' received command OFF
+2024-12-15 19:12:30.138 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Intrusion_Alert' changed from ON to OFF
+2024-12-15 19:12:31.923 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:12:31.923 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:12:36.083 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:12:36.084 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:12:36.754 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:12:36.755 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:12:37.673 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:12:37.674 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:13:07.364 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:13:07.364 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:13:07.509 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command ON
+2024-12-15 19:13:07.511 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from OFF to ON
+2024-12-15 19:13:08.882 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:13:08.882 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:13:12.171 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:13:12.173 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:13:12.177 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Intrusion_Alert' received command ON
+2024-12-15 19:13:12.177 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Intrusion_Alert' changed from OFF to ON
+2024-12-15 19:13:12.796 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:13:12.796 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:13:37.066 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Intrusion_Alert' received command OFF
+2024-12-15 19:13:37.066 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Intrusion_Alert' changed from ON to OFF
+2024-12-15 19:14:08.891 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:14:08.891 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:14:08.892 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from ON to OFF
+2024-12-15 19:17:38.792 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'mouvement' changed from NULL to OFF
+2024-12-15 19:17:38.793 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'porte' changed from NULL to OFF
+2024-12-15 19:17:38.793 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'fenetre' changed from NULL to OFF
+2024-12-15 19:17:38.794 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WaterLevel' changed from NULL to 0
+2024-12-15 19:17:58.931 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command ON
+2024-12-15 19:17:58.932 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from OFF to ON
+2024-12-15 19:17:58.937 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command ON
+2024-12-15 19:17:58.938 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from OFF to ON
+2024-12-15 19:17:59.915 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_MotionSensor' received command OFF
+2024-12-15 19:17:59.916 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_MotionSensor' changed from ON to OFF
+2024-12-15 19:18:01.698 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command ON
+2024-12-15 19:18:01.702 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from OFF to ON
+2024-12-15 19:18:01.707 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Intrusion_Alert' received command ON
+2024-12-15 19:18:01.709 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Intrusion_Alert' changed from OFF to ON
+2024-12-15 19:18:02.370 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Simulated_DoorSensor' received command OFF
+2024-12-15 19:18:02.370 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Simulated_DoorSensor' changed from ON to OFF
+2024-12-15 19:18:59.938 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Light_Controlled' received command OFF
+2024-12-15 19:18:59.938 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Light_Controlled' changed from ON to OFF

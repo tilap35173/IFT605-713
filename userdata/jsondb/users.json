@@ -23,7 +23,7 @@
           "sessionId": "c1660284-a1be-456b-8e2d-11caa67eafbd",
           "refreshToken": "d08dc436edae47d5bf3e5022d4bce1d1",
           "createdTime": "Dec 4, 2024, 3:49:08 PM",
-          "lastRefreshTime": "Dec 15, 2024, 6:53:35 PM",
+          "lastRefreshTime": "Dec 15, 2024, 7:05:57 PM",
           "clientId": "http://localhost:8080",
           "redirectUri": "http://localhost:8080",
           "scope": "admin",

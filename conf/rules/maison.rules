@@ -1,15 +1,29 @@
-// Rule: Turn on the light when motion is detected (if manual switch is off)
+val TAG_FileName = "maison.rules"
+val notification_email = "projetift7132024idmnw@proton.me"
+
+// System Startup Rule
+rule "Démarrage de openHAB"
+when
+    System started
+then
+    logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
+    mouvement.postUpdate(OFF)
+    porte.postUpdate(OFF)
+    fenetre.postUpdate(OFF)
+    WaterLevel.postUpdate(0)
+end
+
+// Motion Detection Rules
 rule "Turn on light when motion detected"
 when
     Item Simulated_MotionSensor changed to ON
 then
-    if (Manual_Light_Switch.state == OFF) { // Only turn on if manual switch is off
+    if (Manual_Light_Switch.state == OFF) {
         logInfo("MotionRule", "Motion detected, turning on the light.")
         Light_Controlled.sendCommand(ON)
     }
 end
 
-// Rule: Turn off the light after inactivity (if manual switch is off)
 rule "Turn off light after inactivity"
 when
     Item Simulated_MotionSensor changed to OFF
@@ -23,7 +37,6 @@ then
     ]
 end
 
-// Rule: Manual light control (turn light on/off regardless of motion)
 rule "Manual light control"
 when
     Item Manual_Light_Switch changed
@@ -37,36 +50,7 @@ then
     }
 end
 
-// Rule: Turn off the light after inactivity (1 minute after motion stops, if manual switch is off)
-rule "Turn off light after inactivity"
-when
-    Item Simulated_MotionSensor changed to OFF
-then
-    logInfo("MotionRule", "No motion detected, setting a timer to turn off the light.")
-    createTimer(now.plusMinutes(1)) [ |
-        // Check if there is still no motion and manual switch is OFF
-        if (Simulated_MotionSensor.state == OFF && Manual_Light_Switch.state == OFF) {
-            logInfo("MotionRule", "Turning off the light after inactivity.")
-            Light_Controlled.sendCommand(OFF)
-        }
-    ]
-end
-
-
-// Rule: Turn off lights after midnight
-rule "Turn off lights after midnight"
-when
-    Time cron "0 0 0 * * ?" // Trigger at midnight
-then
-    if (Light_Controlled.state == ON) {
-        logInfo("MidnightRule", "It is midnight, turning off the lights.")
-        Light_Controlled.sendCommand(OFF)
-    }
-end
-
-
-
-// Rule: Trigger alert when door sensor detects an intrusion
+// Intrusion Detection Rules
 rule "Door intrusion alert"
 when
     Item Simulated_DoorSensor changed to ON
@@ -75,7 +59,6 @@ then
     Intrusion_Alert.sendCommand(ON)
 end
 
-// Rule: Trigger alert when window sensor detects an intrusion
 rule "Window intrusion alert"
 when
     Item Simulated_WindowSensor changed to ON
@@ -84,26 +67,14 @@ then
     Intrusion_Alert.sendCommand(ON)
 end
 
-// Rule: Reset the intrusion alert manually
 rule "Reset intrusion alert"
 when
     Item Intrusion_Alert changed to OFF
 then
     logInfo("IntrusionAlert", "Intrusion alert reset.")
 end
-/////////////////////////////////////////////////////////////d////////////////////////////
-val TAG_FileName = "maison.rules"
-val notification_email = "projetift7132024idmnw@proton.me"
-rule "Démarrage de openHAB"
-when
-    System started
-then
-    logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
-    mouvement.postUpdate(OFF)
-    porte.postUpdate(OFF)
-    fenetre.postUpdate(OFF)
-    waterLevel.postUpdate(0)
-end
+
+// Notifications
 rule "Test de notification"
 when
     Item notification changed to ON
@@ -111,6 +82,7 @@ then
     sendNotification(notification_email, "Test")
     notification.postUpdate(OFF)
 end
+
 rule "Notification de mouvement"
 when
     Item mouvement changed to ON
@@ -118,6 +90,7 @@ then
     sendNotification(notification_email, "Mouvement détecté")
     mouvement.postUpdate(OFF)
 end
+
 rule "Notification de porte"
 when
     Item porte changed
@@ -128,6 +101,7 @@ then
         sendNotification(notification_email, "Porte fermée")
     }
 end
+
 rule "Notification de fenêtre"
 when
     Item fenetre changed
@@ -138,63 +112,13 @@ then
         sendNotification(notification_email, "Fenêtre fermée")
     }
 end
+
 rule "Notification de niveau d'eau"
-when
-    Item waterLevel changed
-then
-    val seuilNiveauEau = 5
-    if ((waterLevel.state as Number) >= seuilNiveauEau) {
-        sendNotification(notification_email, "Niveau d'eau élevé : " + waterLevel.state.toString + " mm")
-    }
-end
-
-/////////////////////////////////////////////////
-val TAG_FileName = "maison.rules"
-rule "Démarrage de openHAB"
-when
-System started
-then
-logInfo(TAG_FileName, "Rule : Démarrage de openHAB")
-
-logInfo(TAG_FileName, "Rule : alert niveau d'eau")
-rule "Water Level Alert"
 when
     Item WaterLevel changed
 then
-    if (WaterLevel.state >10) {
-        //notifictaion
-
-    } 
+    val seuilNiveauEau = 5
+    if ((WaterLevel.state as Number) >= seuilNiveauEau) {
+        sendNotification(notification_email, "Niveau d'eau élevé : " + WaterLevel.state.toString + " cm")
+    }
 end
-//auto-diagonistic
-rule "Exécution toutes les 5 secondese"
- when 
-Time cron "0/5 * * * * ?" 
-then 
-logInfo("CronExample", "La règle est exécutée à " + now.toString)
-
-// Capteur hors 
-if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
-//notification
-// auto-configuraton
-}
-if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
-//notification
-// auto-configuraton
-}
-if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
-//notification
-// auto-configuraton
-}
-if (Thing "mqtt:temperatureSensor:1234" changed to OFFLINE ){
-//notification
-// auto-configuraton
-}
-
-
- end
-
-
-rule "Détection de capteur hors ligne"
-when
-    Thing "mqtt:temperatureSensor:1234" changed to OFFLINE  // Capteur hors 

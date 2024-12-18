@@ -1,22 +1,14 @@
- // Simulated Motion Sensor Thing (virtual thing for testing)
+// Simulated Motion Sensor Thing
 Thing sim:motionSensor "Simulated Motion Sensor" []
 
-// Simulated Light Thing (virtual thing for testing)
-Thing sim:light "Simulated Light" [ ]
-
+// Simulated Light Thing
+Thing sim:light "Simulated Light" []
 
 // Simulated Door Sensor
 Thing sim:doorSensor "Simulated Door Sensor" []
 
 // Simulated Window Sensor
 Thing sim:windowSensor "Simulated Window Sensor" []
-
-Switch notification "Envoyer une notification de test" <switch>
-Switch mouvement "Détecteur de mouvement" <motion>
-Switch porte "Détecteur de porte" <door>
-Switch fenetre "Détecteur de fenêtre" <window>
-Number waterLevel "Niveau d'eau [%.1f mm]" <water>
-
 
 Bridge mqtt:broker:myBroker "MQTT Broker" [
     host="4232e4b4c8374524bcdcd1d81b1c34e5.s1.eu.hivemq.cloud",

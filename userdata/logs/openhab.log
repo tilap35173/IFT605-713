@@ -102,3 +102,330 @@ Frames must not contain other frames
 2024-12-15 18:57:40.076 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
 2024-12-15 18:57:40.076 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
 2024-12-15 18:57:40.076 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:37.328 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.329 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.329 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.329 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.330 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.330 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.331 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.331 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.331 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.331 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.331 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.332 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.332 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.332 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.332 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.332 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:37.334 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:02:37.334 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:37.334 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:37.334 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:39.441 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.442 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.442 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.442 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.443 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.443 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.443 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.443 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.444 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.444 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.444 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.445 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.445 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.445 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.445 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.447 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:39.447 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:02:39.447 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:39.448 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:39.448 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:40.087 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.089 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.089 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.089 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.090 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.090 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.090 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.092 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.092 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.092 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.092 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.093 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.093 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:02:40.093 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:02:40.093 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:40.094 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:02:40.094 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:05:47.962 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-15 19:05:48.002 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.003 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.003 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.004 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.004 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.005 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.005 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.006 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.006 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.007 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.007 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.007 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.008 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.008 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:05:48.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:05:48.010 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:05:48.010 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:05:48.010 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:06:01.013 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.014 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.014 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.014 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.015 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.015 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.015 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.015 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.016 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.016 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.016 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.016 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.017 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.017 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.017 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.017 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:06:01.018 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:06:01.018 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:06:01.018 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:06:01.018 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:06:41.096 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-15 19:07:10.055 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-15 19:07:17.836 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-15 19:07:25.716 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-15 19:07:26.055 [WARN ] [dule.handler.ItemStateTriggerHandler] - Item 'Intrusion_Alert' needed for rule 'maison-8' is missing. Trigger '0' will not work.
+2024-12-15 19:07:40.598 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-15 19:07:40.603 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [2,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[5,17]: mismatched input '"Simulated Light"' expecting ':'
+[9,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[12,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+
+2024-12-15 19:07:42.254 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:42.255 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:42.255 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:42.255 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:42.255 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:42.255 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.005 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.005 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.009 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.439 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.621 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.621 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.621 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.621 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.623 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.623 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.811 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.811 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.811 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.811 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.811 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:43.815 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:44.091 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.126 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.126 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.127 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.127 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.127 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.128 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.614 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.616 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.616 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.794 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.795 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.796 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.796 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.796 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.796 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.989 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.990 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.990 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.990 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.990 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:46.992 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:07:47.884 [WARN ] [dule.handler.ItemStateTriggerHandler] - Item 'Intrusion_Alert' needed for rule 'maison-8' is missing. Trigger '0' will not work.
+2024-12-15 19:08:26.787 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned on, turning on the light.
+2024-12-15 19:08:27.119 [INFO ] [nhab.core.model.script.ManualControl] - Manual switch turned off, turning off the light.
+2024-12-15 19:08:29.350 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:29.351 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:29.351 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:29.351 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:29.351 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:29.352 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.037 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.037 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.038 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.038 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.038 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.038 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.578 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.578 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.578 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.578 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.578 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item Intrusion_Alert for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:30.580 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'Intrusion_Alert' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:08:31.802 [INFO ] [openhab.core.model.script.MotionRule] - Motion detected, turning on the light.
+2024-12-15 19:08:32.911 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-15 19:08:32.914 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-15 19:08:35.231 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-15 19:08:35.237 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'maison-6' failed: The name 'Intrusion_Alert' cannot be resolved to an item or type; line 75, column 5, length 15 in maison
+2024-12-15 19:08:37.639 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Window sensor triggered!
+2024-12-15 19:08:37.639 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'maison-7' failed: The name 'Intrusion_Alert' cannot be resolved to an item or type; line 84, column 5, length 15 in maison
+2024-12-15 19:09:32.925 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-15 19:09:32.925 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-15 19:10:22.113 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-15 19:10:22.122 [INFO ] [dule.handler.ItemStateTriggerHandler] - Item 'Intrusion_Alert' needed for rule 'maison-8' added. Trigger '0' will now work.
+2024-12-15 19:10:40.571 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-15 19:10:40.571 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'maison-6' failed: The name 'Intrusion_Alert' cannot be resolved to an item or type; line 75, column 5, length 15 in maison
+2024-12-15 19:10:42.190 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Window sensor triggered!
+2024-12-15 19:10:42.192 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'maison-7' failed: The name 'Intrusion_Alert' cannot be resolved to an item or type; line 84, column 5, length 15 in maison
+2024-12-15 19:10:55.476 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-15 19:11:22.321 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-15 19:11:34.865 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-15 19:11:34.899 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.rules' has errors, therefore ignoring it: [95,1]: missing EOF at 'val'
+
+2024-12-15 19:12:20.593 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-15 19:12:20.624 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.625 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.625 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.625 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.625 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.626 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.626 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.627 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.627 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.627 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.628 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.628 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.628 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.628 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.628 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.630 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:12:20.630 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:12:20.630 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:12:20.631 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:12:20.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:12:27.277 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-15 19:12:27.280 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [2,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[5,17]: mismatched input '"Simulated Light"' expecting ':'
+[9,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[12,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+[14,1]: missing EOF at 'Switch'
+
+2024-12-15 19:13:03.375 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-15 19:13:05.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.632 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:05.634 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.169 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.613 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.613 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.613 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.613 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'notification' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'mouvement' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.615 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'porte' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'fenetre' for widget org.openhab.core.model.sitemap.sitemap.Switch
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Failed to retrieve item during widget rendering, item does not exist: Item 'waterLevel' could not be found in the item registry
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.617 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:06.619 [WARN ] [ui.internal.items.ItemUIRegistryImpl] - Cannot retrieve item 'waterLevel' for widget org.openhab.core.model.sitemap.sitemap.Setpoint
+2024-12-15 19:13:07.508 [INFO ] [openhab.core.model.script.MotionRule] - Motion detected, turning on the light.
+2024-12-15 19:13:08.884 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-15 19:13:08.884 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-15 19:13:12.175 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-15 19:13:37.066 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion alert reset.
+2024-12-15 19:14:08.889 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-15 19:14:08.889 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
+2024-12-15 19:14:52.873 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-15 19:14:52.887 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.rules' has errors, therefore ignoring it: [95,1]: missing EOF at 'val'
+
+2024-12-15 19:17:22.371 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.things'
+2024-12-15 19:17:22.387 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'maison.things' has errors, therefore ignoring it: [2,24]: mismatched input '"Simulated Motion Sensor"' expecting ':'
+[5,17]: mismatched input '"Simulated Light"' expecting ':'
+[8,22]: mismatched input '"Simulated Door Sensor"' expecting ':'
+[11,24]: mismatched input '"Simulated Window Sensor"' expecting ':'
+
+2024-12-15 19:17:31.179 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.items'
+2024-12-15 19:17:38.230 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.rules'
+2024-12-15 19:17:38.788 [INFO ] [enhab.core.model.script.maison.rules] - Rule : Démarrage de openHAB
+2024-12-15 19:17:49.579 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'maison.sitemap'
+2024-12-15 19:17:58.935 [INFO ] [openhab.core.model.script.MotionRule] - Motion detected, turning on the light.
+2024-12-15 19:17:59.918 [INFO ] [openhab.core.model.script.MotionRule] - No motion detected, setting a timer to turn off the light.
+2024-12-15 19:18:01.416 [INFO ] [enhab.core.model.script.maison.rules] - Rule : Démarrage de openHAB
+2024-12-15 19:18:01.701 [INFO ] [hab.core.model.script.IntrusionAlert] - Intrusion detected: Door sensor triggered!
+2024-12-15 19:18:59.937 [INFO ] [openhab.core.model.script.MotionRule] - Turning off the light after inactivity.
