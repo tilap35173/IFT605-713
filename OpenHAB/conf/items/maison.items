@@ -1,10 +1,10 @@
 // Simulated Sensors
-Switch Simulated_MotionSensor "Simulated Motion Sensor"
-Switch Simulated_DoorSensor "Door Sensor"
-Switch Simulated_WindowSensor "Window Sensor"
+Switch Simulated_MotionSensor "Simulated Motion Sensor" // { channel="mqtt:topic:MotionSensor:state" }
+Switch Simulated_DoorSensor "Door Sensor" // { channel="mqtt:topic:DoorSensor:state" }
+Switch Simulated_WindowSensor "Window Sensor" // { channel="mqtt:topic:WindowSensor:state" }
 
 // Light Control
-Switch Manual_Light_Switch "Manual Light Control"
+Switch Manual_Light_Switch "Manual Light Control" // { channel="mqtt:topic:ManualLightSwitch:state" }
 Switch Light_Controlled "Light"
 
 // Intrusion Alert

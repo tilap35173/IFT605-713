@@ -138,6 +138,7 @@ then
     WaterLevel.postUpdate(Simulated_WaterLevel.state)
 end
 
+// Auto configuration
 
 rule "Auto configuration on startup"
 when
@@ -185,3 +186,52 @@ then
     logWarn("AutoRepair", "Le broker MQTT est hors ligne. Tentative de redémarrage...")
     executeCommandLine("sudo systemctl restart openhab", 5000)
 end
+
+// Auto-diagnostic
+/* (règle désactivée afin de ne pas empêcher le fonctionnement car les éléments sont simulés)
+rule "Auto-diagnostic toutes les 5 secondes"
+when
+    Time cron "0/5 * * * * ?"
+then
+    logInfo("AutoDiagnostic", "Exécution de la règle d'auto-diagnostic à " + now.toString)
+
+    val mqttThings = [
+        "mqtt:topic:MotionSensor",
+        "mqtt:topic:DoorSensor",
+        "mqtt:topic:WindowSensor",
+        "mqtt:topic:ManualLightSwitch",
+        "mqtt:topic:Waterlevel"
+    ]
+
+    if (getThingStatusInfo("mqtt:topic:MotionSensor").getStatus() == "OFFLINE") {
+        logWarn("AutoDiagnostic", "Capteur de mouvement hors ligne. Tentative de redémarrage ...")
+        sendNotification(notification_email, "Capteur de mouvement hors ligne. Tentative de redémarrage ...")
+    }
+
+    if (getThingStatusInfo("mqtt:topic:DoorSensor").getStatus() == "OFFLINE") {
+        logWarn("AutoDiagnostic", "Capteur de porte hors ligne. Tentative de redémarrage ...")
+        sendNotification(notification_email, "Capteur de porte hors ligne. Tentative de redémarrage ...")
+    }
+
+    if (getThingStatusInfo("mqtt:topic:WindowSensor").getStatus() == "OFFLINE") {
+        logWarn("AutoDiagnostic", "Capteur de fenêtre hors ligne. Tentative de redémarrage ...")
+        sendNotification(notification_email, "Capteur de fenêtre hors ligne. Tentative de redémarrage ...")
+    }
+
+    if (getThingStatusInfo("mqtt:topic:ManualLightSwitch").getStatus() == "OFFLINE") {
+        logWarn("AutoDiagnostic", "Interrupteur hors ligne. Tentative de redémarrage ...")
+        sendNotification(notification_email, "Interrupteur hors ligne. Tentative de redémarrage ...")
+    }
+
+    if (getThingStatusInfo("mqtt:topic:Waterlevel").getStatus() == "OFFLINE") {
+        logWarn("AutoDiagnostic", "Capteur de niveau d'eau hors ligne. Tentative de redémarrage ...")
+        sendNotification(notification_email, "Capteur de niveau d'eau hors ligne. Tentative de redémarrage ...")
+    }
+
+    if (mqttThings.any[ thingID | getThingStatusInfo(thingID).getStatus() == "OFFLINE" ]) {
+        executeCommandLine("sudo systemctl restart openhab", 5000)
+    } else {
+        logInfo("AutoDiagnostic", "Tous les capteurs sont en ligne.")
+    }
+end
+*/

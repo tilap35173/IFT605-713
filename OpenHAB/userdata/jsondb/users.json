@@ -28,6 +28,16 @@
           "redirectUri": "http://localhost:8080",
           "scope": "admin",
           "sessionCookie": true
+        },
+        {
+          "sessionId": "720f0a6b-0306-41aa-93f5-c773735e0e27",
+          "refreshToken": "cec12e28bcaa4bf7aaafb62a3f139a5c",
+          "createdTime": "Dec 18, 2024, 12:12:44 PM",
+          "lastRefreshTime": "Dec 18, 2024, 3:02:39 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
         }
       ],
       "apiTokens": []

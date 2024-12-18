@@ -21,4 +21,22 @@ Bridge mqtt:broker:myBroker "MQTT Broker" [
         Channels:
             Type number : level "Water Level" [ stateTopic="home/waterlevel" ]
     }
+    /*
+    Thing mqtt:topic:MotionSensor "Motion Sensor" {
+        Channels:
+            Type switch : state "Motion Sensor State" [ stateTopic="home/motionsensor/state", commandTopic="home/motionsensor/command" ]
+    }
+    Thing mqtt:topic:DoorSensor "Door Sensor" {
+        Channels:
+            Type switch : state "Door Sensor State" [ stateTopic="home/doorsensor/state", commandTopic="home/doorsensor/command" ]
+    }
+    Thing mqtt:topic:WindowSensor "Window Sensor" {
+        Channels:
+            Type switch : state "Window Sensor State" [ stateTopic="home/windowsensor/state", commandTopic="home/windowsensor/command" ]
+    }
+    Thing mqtt:topic:ManualLightSwitch "Manual Light Switch" {
+        Channels:
+            Type switch : state "Manual Light Switch State" [ stateTopic="home/lightcontrol/state", commandTopic="home/lightcontrol/command" ]
+    }
+    */
 }
