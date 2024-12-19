@@ -140,22 +140,6 @@ end
 
 // Auto configuration
 
-rule "Auto configuration on startup"
-when
-    System started
-then
-    logInfo("AutoConfig", "Initializing default configuration...")
-
-    // Initialisation des capteurs
-    Simulated_MotionSensor.postUpdate(OFF)
-    Simulated_DoorSensor.postUpdate(OFF)
-    Simulated_WindowSensor.postUpdate(OFF)
-    Intrusion_Alert.postUpdate(OFF)
-    Manual_Light_Switch.postUpdate(OFF)
-
-    logInfo("AutoConfig", "Default configuration initialized.")
-end
-
 rule "Auto-configuration et réparation au démarrage"
 when
     System started
@@ -179,6 +163,8 @@ then
     logInfo("AutoConfig", "Configuration initialisée avec succès.")
 end
 
+// Auto-guérison
+
 rule "Redémarrage automatique des Things défectueux"
 when
     Thing "mqtt:broker:myBroker" changed from ONLINE to OFFLINE
@@ -187,7 +173,9 @@ then
     executeCommandLine("sudo systemctl restart openhab", 5000)
 end
 
-// Auto-diagnostic
+
+
+// Auto-diagnostic (et auto guérison)
 /* (règle désactivée afin de ne pas empêcher le fonctionnement car les éléments sont simulés)
 rule "Auto-diagnostic toutes les 5 secondes"
 when
